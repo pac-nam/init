@@ -1,1 +1,0 @@
-nslookup slash16.org | grep -m 1 "Address" | cut -c 10- | cut -f 1 -d '#'

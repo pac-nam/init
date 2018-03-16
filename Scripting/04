@@ -1,0 +1,1 @@
+0 0 * * * if [ $(find /etc/crontab -mtime -1) ]; then echo "crontab have been changed today\n" | mail -s "crontab changed" root; fi

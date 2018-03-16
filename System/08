@@ -1,2 +1,2 @@
-root/.ssh/id_rsa
-root/.ssh/id_rsa.pub
+.ssh/id_rsa
+.ssh/id_rsa.pub

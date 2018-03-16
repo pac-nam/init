@@ -1,2 +1,1 @@
-crontab -e
- 0 4 * * 1 apt-/var/log/update_script.log update
+echo '0 4 * * 1 apt-/var/log/update_script.log update' | crontab
